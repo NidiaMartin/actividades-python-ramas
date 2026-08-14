@@ -13,3 +13,12 @@ producto10 = float(input("Valor del producto 10: "))
 
 # Sumar los productos
 subtotal = (producto1 + producto2 + producto3 + producto4 + producto5 + producto6 + producto7 + producto8 + producto9 + producto10)
+
+# Calcular el IVA (19%)
+iva = subtotal * 0.19
+# Calcular el total
+total = subtotal + iva
+# Mostrar resultados
+print("Subtotal:", subtotal)
+print("IVA:", iva)
+print("Total a pagar:", total)
